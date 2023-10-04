@@ -28,12 +28,19 @@ For now everything gets the same font type
  - **Background:** Dark Color
  - **Text Color:** White
  - **Border Radius:** 20px Rounding
+ - **Border Colour:** Lighter border color
  
  ### **Header**
- - **Design:** Centered, horizontally spans most of the site
+ - **Design:** Centered, horizontally spans most of the site. Dark Background, Lightborder
  - **Image:**![Header Mock Up](imagelink.png)
 
 ### **Navigation:**
+ - **Design:** Centered, spans part of the header.
+ - **Image:**![Header Mock Up](imagelink.png)
 ### **Content**
+ - **Design:** Centered, horizontally and vertically spans most of the site. Dark Background, Lightborder
+ - **Image:**![Header Mock Up](imagelink.png)
 ### **Footer**
+ - **Design:** Left aligned, horizontally spans all of the site. Accent color background, no border effects
+ - **Image:**![Header Mock Up](imagelink.png)
 	
