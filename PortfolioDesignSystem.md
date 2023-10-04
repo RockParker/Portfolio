@@ -4,6 +4,7 @@ This document will layout the general design system that will be employed when c
 
 ## **1. Color Palette**
 I'll be using a small set of colours in many different shades
+As well as colors, images are allowed but they need to fit the colours or have a nice accent colour built into them
 
 - **Dark Colors:**
 	- Dark Gray: `#141414`
