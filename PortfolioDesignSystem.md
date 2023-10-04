@@ -33,20 +33,20 @@ For now everything gets the same font type
  ### **Header**
  - **Design:** Centered, horizontally spans most of the site. Dark Background, Lightborder
  - **Image:**
- - ![Header Mock Up](header.png)
+![Header Mock Up](header.png)
 
 ### **Navigation:**
  - **Design:** Centered, spans part of the header.
  - **Image:**
- - ![Navigation Mock Up](Navigation.png)
+ ![Navigation Mock Up](Navigation.png)
 
 ### **Content**
  - **Design:** Centered, horizontally and vertically spans most of the site. Dark Background, Lightborder
  - **Image:**
- - ![Content Mock Up](Content.png)
+![Content Mock Up](Content.png)
 
 ### **Footer**
  - **Design:** Left aligned, horizontally spans all of the site. Accent color background, no border effects
  - **Image:**
- - ![Footer Mock Up](footer.png)
+![Footer Mock Up](footer.png)
 	
