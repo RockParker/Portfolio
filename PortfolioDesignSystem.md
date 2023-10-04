@@ -36,13 +36,13 @@ For now everything gets the same font type
 
 ### **Navigation:**
  - **Design:** Centered, spans part of the header.
- - **Image:**![Header Mock Up](imagelink.png)
+ - **Image:**![Navigation Mock Up](imagelink.png)
 
 ### **Content**
  - **Design:** Centered, horizontally and vertically spans most of the site. Dark Background, Lightborder
- - **Image:**![Header Mock Up](imagelink.png)
+ - **Image:**![Content Mock Up](imagelink.png)
 
 ### **Footer**
  - **Design:** Left aligned, horizontally spans all of the site. Accent color background, no border effects
- - **Image:**![Header Mock Up](imagelink.png)
+ - **Image:**![Footer Mock Up](imagelink.png)
 	
