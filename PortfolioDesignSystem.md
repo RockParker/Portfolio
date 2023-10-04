@@ -38,7 +38,7 @@ For now everything gets the same font type
 ### **Navigation:**
  - **Design:** Centered, spans part of the header.
  - **Image:**
- ![Navigation Mock Up](Navigation.png)
+![Navigation Mock Up](Navigation.png)
 
 ### **Content**
  - **Design:** Centered, horizontally and vertically spans most of the site. Dark Background, Lightborder
