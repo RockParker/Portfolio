@@ -17,5 +17,23 @@ I'll be using a small set of colours in many different shades
 	- Interest Color: `#00dbd6`
 	- Factual Color: `#FFAA00`
 
+## **2. Font Types**
+For now everything gets the same font type
+	- Verdana
 
+ ## **3. Elements and Layout**
+ Different base components and how they are structured
+ 
+ ### **Global Features:**
+ - **Background:** Dark Color
+ - **Text Color:** White
+ - **Border Radius:** 20px Rounding
+ 
+ ### **Header**
+ - **Design:** Centered, horizontally spans most of the site
+ - **Image:**![Header Mock Up](imagelink.png)
+
+### **Navigation:**
+### **Content**
+### **Footer**
 	
