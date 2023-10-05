@@ -5,7 +5,8 @@
     <title>Ross Parker // Resume</title>
 
     <link rel="stylesheet" href="styles.css"/>
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
 </head>
 
 
@@ -13,6 +14,17 @@
 
     <!-- this is everything that makes up the header component of the page -->
     <div class="container">
+        <div id="many-page-container">
+            <span id="header-icon" class="header-icon" onclick="iconClick()">></span>
+            <div class="other-page-nav" >
+                <ul id="page-list" style="list-style: none;visibility: collapse;">
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 1</a></li>
+                </ul>
+            </div>
+        </div>
+
         <div id="header-container">
             <h1 class="main-header">Ross Parker</h1>
             <h3 id="info-about-me" style="font-size:1em;">Full Time Student || (xxx)xxx-xxxx || emailaddress@dnsserver.com</h3>
@@ -20,6 +32,7 @@
         </div>
 
         <nav class="nav-bar">
+
             <ul style="list-style: none">
                 <li id="skill-button" class="nav-item" style="-webkit-text-fill-color: var(--skills-color);"><a onclick="skillsClick()">Skills</a> </li>
                 <li id="exp-button" class="nav-item" style="-webkit-text-fill-color: var(--exp-color);"><a onclick="experienceClick()">Work Experience</a> </li>
@@ -54,7 +67,7 @@
         </form>
     </div>
 
-    <img src="thing1.bmp" id="night-sky">
+    <img src="Images/MainBackground.bmp" id="night-sky">
 
     <footer>Ross Parker  &#169; 2023 || <a class="footer-link" target="_blank" href="https://github.com/RockParker">My Github</a> || <a class="footer-link" onclick="openCloseForm()">Contact Me</a></footer>
 </body>
