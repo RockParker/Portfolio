@@ -223,11 +223,11 @@ footer
     width: fit-content;
 
     transform: rotate(0deg);
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 .rotate
 {
-    transform: rotate(450deg);
+    transform: rotate(90deg);
 }
 
 #many-page-container
