@@ -1,9 +1,5 @@
 
 
-
-
-
-
 function iconClick()
 {
     let rotatable = document.getElementById('header-icon');
@@ -24,8 +20,4 @@ function iconClick()
         list.style.visibility = 'visible';
 
     }
-
-
-
-
 }
