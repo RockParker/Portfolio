@@ -12,14 +12,15 @@
     <script type="text/javascript" src="js/header.js"></script>
     <script type="text/javascript" src="js/Game.js"></script>
     <script type="text/javascript" src="js/Dice.js"></script>
-    <script type="text/javascript" src="js/GameEngine.js"></script>
+    <script type="text/javascript" src="js/DiceHandler.js"></script>
     <script type="text/javascript" src="js/animations.js"></script>
 
 </head>
 
 <body>
     <div class="container" id="top-container"></div>
-    <button onclick="startNewGame()" style="-webkit-text-fill-color: black;font-size:1em;">&#128472; Reset</button>
+    <button onclick="startNewGame(true)" style="-webkit-text-fill-color: black;font-size:1em;">&#128472; SinglePlayer</button>
+    <button onclick="startNewGame(false)" style="-webkit-text-fill-color: black;font-size:1em;">&#128472; MultiPlayer</button>
 
     <div class="game">
 
@@ -32,7 +33,7 @@
                 <div> <img id="die-img5" class="dice-img" src="Images/Dice/1_face.png" height="64" width="64" alt="" /> </div>
             </div>
 
-            <button onclick="rollDice(POE.PLAYER)" style="-webkit-text-fill-color: black;">roll dice</button>
+            <button onclick="rollDice()" style="-webkit-text-fill-color: black;">roll dice</button>
         </div>
 
         <table id="game-table">
@@ -67,7 +68,6 @@
 </body>
 
 <script>loadHeader('Yahtzee', 'my attempt at yahtzee')</script>
-<script>startNewGame()</script>
 
 
 </html>

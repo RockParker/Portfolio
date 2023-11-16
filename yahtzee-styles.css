@@ -38,10 +38,11 @@ table, tbody, th, td
 .dice-img
 {
     margin: 5px;
-
+    transition: ease 1s;
 }
 
 .blur
 {
     filter:blur(2px);
+    transition:ease 0s;
 }
