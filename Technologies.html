@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech. Used</title>
+
+
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/header.js"></script>
+  <script type="text/javascript" src="js/navbar_handler.js"></script>
+  <script type="text/javascript" src="js/animations.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+  <link rel="stylesheet" type="text/css" href="techused-styles.css">
+</head>
+
+
+<body>
+<!-- this is everything that makes up the header component of the page -->
+<div class="container" id="top-container"></div>
+
+<div class="topic-container">
+    <span class="topic-title">Javascript Classes</span>
+    <span class="topic-subtitle">Classes made it easier for me to break the code into more manageable chunks</span>
+    <p class="topic-paragraph">
+        In my main javascript file for the yatzy game, there are a handful of small methods that act as static methods.
+        The main javascript file acts as a view model enabling the back-end to change without altering the front-end.
+
+        I utilized classes in 2 main ways:<br><br>
+        1) I made classes that are to be used as instances. I did this to keep the code readable, and easier to maintain.
+        This improves readability of the code because when, for example, starting a new game everything relating to
+        dice is hidden into a "DiceHandler" class where I can tell it to roll the dice, or reset them.<br><br>
+        2) I created 'static' files. This is for files that don't need to be instantiated to operate well.
+        one example of this was the calculator class. Originally it was just a file with a handful of
+        methods to do the math for the scores. It has since changed to encourage consistent styling of all the server-sided code.
+    </p>
+</div>
+
+<div class="topic-container">
+    <span class="topic-title">Custom Elements</span>
+    <span class="topic-subtitle">Utilizing custom elements meant that I could reuse the same code repeatedly</span>
+    <p class="topic-paragraph">Originally the header for the page was written directly in the html for the pages.
+        I didn't like this approach as it meant that beyond just needing to copy/paste into every new page,
+        if there were any changes that needed to be made, I would need to manually update each page.</b>
+        To solve this problem, I created a custom element by extending the HTMLElement class and then putting the
+        html into the connectedCallBack, this meant that all I needed to do when creating a new page was to include the
+        script, create a container element, and call the method. By creating them dynamically, I was also able to 'override'
+        the default text and change what the header said without needing to use set values in the html</p>
+</div>
+
+<div class="topic-container">
+    <span class="topic-title">Http Methods</span>
+    <span class="topic-subtitle">Http methods provide a simple way to interface with a server</span>
+    <p class="topic-paragraph">Originally the yatzy game was exclusively client based. Now it relies on a server,
+        where all game state related things are hosted on the server, as well as the calculations for the scores.
+        To do this I used get methods to receive data from the server, and used put methods to make changes such as locking
+        scores when the player selects them. This also meant that I could replace all the logic handling code and replace it with
+        just a handful of methods, the primary one being where the client loads the server's response into the table</p>
+</div>
+
+
+
+</body>
+
+<script>loadHeader('Technology Used', 'Different things I used to make my portfolio')</script>
+</html>

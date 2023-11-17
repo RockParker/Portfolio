@@ -13,6 +13,7 @@ class myHeader extends HTMLElement
                                         <li><a href="index.html">Home</a></li>
                                         <li><a href="yahtzee.html">Yahtzee</a></li>
                                         <li><a href="#">Emergency Wait List</a></li>
+                                        <li><a href="Technologies.html">Technologies Used</a></li>
                                     </ul>
                                 </div>
                             </div>

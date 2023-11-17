@@ -9,6 +9,9 @@ body
     flex-direction: column;
 
     justify-items: start;
+
+    overflow: auto;
+    height:100vh;
 }
 
 table, tbody, th, td
