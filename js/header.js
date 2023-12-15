@@ -12,7 +12,7 @@ class myHeader extends HTMLElement
                                     <ul id="page-list" style="list-style: none;visibility: collapse;">
                                         <li><a href="index.html">Home</a></li>
                                         <li><a href="yahtzee.html">Yahtzee</a></li>
-                                        <li><a href="#">Emergency Wait List</a></li>
+                                        <li><a href="../EmergencyWaitlist/Emergency%20waitlist%20frontend/Login%20page/login.html">Emergency Wait List</a></li>
                                         <li><a href="Technologies.html">Technologies Used</a></li>
                                     </ul>
                                 </div>
